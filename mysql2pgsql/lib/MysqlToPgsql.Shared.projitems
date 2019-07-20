@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c328b68b-c08a-4447-9073-a72e380750b0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MysqlToPgsql.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)config.py.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)converter.py.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)errors.py.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)mysql_reader.py.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)postgres_db_writer.py.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)postgres_file_writer.py.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)postgres_writer.py.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__init__.py.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlToPgsql.Py", "pycs\MysqlToPgsql.Py.csproj", "{3F4B7B9F-2D29-4104-A302-7339B4314D62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{74389A49-9586-47B9-8E8F-B4FD21604D6A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MysqlToPgsql.Shared", "lib\MysqlToPgsql.Shared.shproj", "{C328B68B-C08A-4447-9073-A72E380750B0}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		lib\MysqlToPgsql.Shared.projitems*{3f4b7b9f-2d29-4104-a302-7339b4314d62}*SharedItemsImports = 4
+		lib\MysqlToPgsql.Shared.projitems*{c328b68b-c08a-4447-9073-a72e380750b0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4B7B9F-2D29-4104-A302-7339B4314D62}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3F4B7B9F-2D29-4104-A302-7339B4314D62}.Debug|x86.ActiveCfg = Debug|x86
+		{3F4B7B9F-2D29-4104-A302-7339B4314D62}.Debug|x86.Build.0 = Debug|x86
+		{3F4B7B9F-2D29-4104-A302-7339B4314D62}.Release|Any CPU.ActiveCfg = Release|x86
+		{3F4B7B9F-2D29-4104-A302-7339B4314D62}.Release|x86.ActiveCfg = Release|x86
+		{3F4B7B9F-2D29-4104-A302-7339B4314D62}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C328B68B-C08A-4447-9073-A72E380750B0} = {74389A49-9586-47B9-8E8F-B4FD21604D6A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD28BFA-640F-4B1A-9DC9-1071373287F1}
+	EndGlobalSection
+EndGlobal
